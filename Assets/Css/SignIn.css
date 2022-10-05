@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 74px;
+    flex-direction: column;
+}
+
+.signin-options{
+    height: 40px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.signin-options button{
+    font-size: 18px;
+    margin: 4px 5px;
+    padding: 6px 9px;
+    cursor: pointer;
+    border: 2px solid rgb(147, 182, 217);
+    background-color: rgb(123, 123, 194);
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+
+.container::before{
+    content: '';
+    background: rgb(30, 18, 13);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: .11;
+    z-index: -2;
+}
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    display: block;
+    margin: 2px;
+    font-size: 14px;
+}
+
+.input-area{
+    width: 239px;
+    padding: 5px 3px;
+    border-radius: 6px;
+}
+
+
+.sign-in-form label{
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.sign-in-form button{
+    margin: 5px;
+    border: none;
+    padding: 7px 8px;
+    width: fit-content;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: rgb(167, 167, 222)
+
+}
+
+.input span{
+    font-size: .80rem;
+    float: right;
+}
+
+#restaurant{
+    height: 0;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/SignIn.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="signin-options">
+            <button>For Restaurants</button>
+            <button>For Costumers</button>
+        </div>
+        <form action="" class="sign-in-form" id="customer">
+            <label for="name" class="input">
+                Name:
+                <input type="text" name="" id="name" class="input input-area">
+            </label>
+            <label for="phoneno" class="input">
+                Phone:
+                <input type="tel" name="" id="phoneno" class="input input-area">
+            </label>
+            <label for="email" class="input">
+                Email:
+                <input type="email" name="" id="email" class="input input-area">
+            </label>
+            <label for="password" class="input">
+                <input type="password" name="" id="password" class="input input-area" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                Password:
+                <span>Create a passwod.</span>
+            </label>
+            <button type="submit" class="input">SUBMIT</button>
+            <a href="">Already a user? LogIn?</a>
+        </form>
+        <form action="" class="sign-in-form" id="restaurant">
+            <label for="name" class="input">
+                Name:
+                <input type="text" name="" id="name" class="input input-area">
+            </label>
+            <label for="phoneno" class="input">
+                Phone:
+                <input type="tel" name="" id="phoneno" class="input input-area">
+            </label>
+            <label for="email" class="input">
+                Email:
+                <input type="email" name="" id="email" class="input input-area">
+            </label>
+            <label for="password" class="input">
+                Password:
+                <input type="password" name="" id="password" class="input input-area">
+            </label>
+            <button type="submit" class="input">SUBMIT</button>
+            <a href="">Already a user? LogIn?</a>
+        </form>
+    </div>
+    
+</body>
+
+</html>
